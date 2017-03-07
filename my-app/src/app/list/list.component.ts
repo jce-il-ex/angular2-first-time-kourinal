@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  myList =[{id:1,txt:"oogabooga"},{id:2,txt:"herpderp"},{id:3}];
+  //x=3;
+  constructor() {}
 
   ngOnInit() {
   }
